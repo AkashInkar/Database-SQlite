@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Fragment.UpdateFragment">
+
+
+<LinearLayout
+    android:weightSum="10"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <EditText
+        android:id="@+id/edtName"
+        android:hint="Enter Name"
+        android:layout_weight="7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="Search"/>
+
+</LinearLayout>
+
+    <EditText
+        android:id="@+id/edtAddress"
+        android:hint="Enter Address   "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtPhone"
+        android:hint="Enter Phone No "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edtSalary"
+        android:hint="Enter Salary       "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="UPDATE"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

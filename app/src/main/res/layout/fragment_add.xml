@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.AddFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <ImageView
+       android:id="@+id/img1"
+       android:layout_width="1000dp"
+       android:layout_height="100dp"
+       android:src="@drawable/ak"
+       />
+    <TextView
+        android:layout_below="@+id/img1"
+        android:id="@+id/txtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Name :"/>
+    <EditText
+        android:id="@+id/etdname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@+id/txtname"
+        android:hint="Enter Name"/>
+
+    <TextView
+        android:id="@+id/txtadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@+id/etdname"
+        android:text="Address :"/>
+    <EditText
+        android:id="@+id/etdadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@+id/txtadd"
+        android:hint="Enter Adress"/>
+
+    <TextView
+        android:id="@+id/txtphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@+id/etdadd"
+        android:text="Phone :"/>
+    <EditText
+        android:id="@+id/etdphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@+id/txtphone"
+        android:hint="Enter Phone"/>
+
+    <TextView
+        android:id="@+id/txtsalary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@+id/etdphone"
+        android:text="Enter Salary:"/>
+    <EditText
+        android:id="@+id/etdsal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@+id/txtsalary"
+        android:hint="Enter Salary"/>
+
+ <Button
+     android:id="@+id/btnsave"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:layout_alignParentStart="true"
+     android:layout_marginBottom="57dp"
+     android:layout_marginStart="150dp"
+     android:text="Save"
+     android:layout_alignParentLeft="true"
+     android:layout_marginLeft="150dp" />
+
+</RelativeLayout>
